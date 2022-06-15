@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.body {
+  max-width: 500px;
+  margin: 100px auto;
+  border: 1px solid black;
+  background-color: papayawhip;
+
+}
+
+.heading h1 {
+  text-align: center;
+  color: darkblue;
+  padding-top: 30px;
+}
+
+.content {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.content p {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.content p:first-child {
+  color: green;
+  font-weight: bold;
+  font-size: 23px;
+}
+
+#message-el {
+  font-style: italic;
+}
+
+.content button {
+  padding: 4px 1rem;
+  font-weight: 600;
+  background-color: green;
+  color: white;
+  margin: 2px 0;
+  border: solid white;
+  cursor: pointer;
+}
+
+#new-card {
+  margin-bottom: 15px;
+}

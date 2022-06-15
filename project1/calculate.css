@@ -1,0 +1,32 @@
+.body {
+    max-width: 500px;
+    margin: 300px auto;
+
+}
+
+.span, .span2, .button {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+button {
+    margin-right: 5px;
+    padding: 5px 10px;
+    font-size: 1rem;
+    font-weight: bold;
+
+}
+
+.span span {
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: 2px solid black;
+}
+
+.span2 span {
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+
+}
